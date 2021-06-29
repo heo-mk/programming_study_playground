@@ -16,9 +16,9 @@
   <input type='button' id='target' value='button' />
   <script>
     var t = document.getElementById('target');
-    <!-- t.onclick = function(event) {
+    t.onclick = function(event) {
       alert('Hello world' + event.target.value);
-    } -->
+    }
 
     t.addEventListener('click', function(event) {
       alert('Hello world ' + event.target.value); 
@@ -49,4 +49,3 @@
 
 </body>
 </html>
-
